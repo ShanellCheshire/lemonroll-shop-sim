@@ -1,0 +1,72 @@
+body{
+    margin: 0 15% 0 15%;
+    background-image:url("/media/lemonroll.webp.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    color: whitesmoke;
+}
+
+header > h2 {
+    font-style: italic;
+    color: whitesmoke;
+    background-color: rgba(76, 219, 255, 0.568);
+}
+
+div.outer{
+    border: 4px solid whitesmoke;
+    background-color: rgba(197, 161, 0, 0.479);
+    
+}
+
+div.click{
+    border-bottom: 4px solid whitesmoke;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+div.store{
+    display: flex;
+    color: whitesmoke;
+}
+
+div.store-title{
+    text-align: center;
+    border-bottom: 4px solid whitesmoke;
+}
+
+div.buildings,
+div.upgrades{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    height: 50vh;
+    overflow: auto;
+    color:rgba(96, 223, 255, 0.397);
+    color: whitesmoke;
+}
+
+div.buildings{
+    border-right: 4px solid whitesmoke;
+}
+
+.button {
+    border-bottom: 1px solid whitesmoke;
+    padding: 14px 28px 14px 28px;
+    font-size: 1.25em;
+    cursor: pointer;
+    text-align: left;
+    background-color:rgba(250, 110, 168, 0.623);
+    color: whitesmoke;
+}
+
+.button:disabled:hover{
+    cursor: not-allowed;
+}
